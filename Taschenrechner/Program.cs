@@ -14,11 +14,11 @@ namespace Taschenrechner
             string zweiteZahl = Console.ReadLine();
 
             // Wandelt Text in Ganzzahlen
-            int ersteZahlAlsZahl = Convert.ToInt32(ersteZahl);
-            int zweiteZahlAlsZahl = Convert.ToInt32(zweiteZahl);
+            float ersteZahlAlsZahl = Convert.ToSingle(ersteZahl);
+            float zweiteZahlAlsZahl = Convert.ToSingle(zweiteZahl);
 
             // Berechnung
-            int summe = ersteZahlAlsZahl + zweiteZahlAlsZahl;
+            float summe = ersteZahlAlsZahl + zweiteZahlAlsZahl;
 
             // Ausgabe
             Console.WriteLine("Die Summe ist: {0}", summe);
